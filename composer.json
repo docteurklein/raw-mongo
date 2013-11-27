@@ -1,0 +1,28 @@
+{
+    "name": "knplabs/raw",
+    "description": "The \"KnpLabs Raw Data Mapper\"",
+    "license":     "MIT",
+    "homepage": "http://knplabs.com",
+    "authors": [
+        {
+            "name":     "Knplabs",
+            "homepage": "http://knplabs.com"
+        },
+        {
+            "name":     "Florian Klein",
+            "email": "florian.klein@free.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpspec/phpspec":                    "2.0.*@dev"
+    },
+    "suggest": {
+        "doctrine/orm": "If you want a more robust solution"
+    },
+    "autoload": {
+        "psr-0": { "Knp\\Raw": "src" }
+    }
+}
