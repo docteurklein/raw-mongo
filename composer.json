@@ -20,7 +20,7 @@
         "phpspec/phpspec":                    "2.0.*@dev"
     },
     "suggest": {
-        "doctrine/orm": "If you want a more robust solution"
+        "doctrine/mongodb": "If you want a more robust solution"
     },
     "autoload": {
         "psr-0": { "Knp\\Raw": "src" }

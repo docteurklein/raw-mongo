@@ -31,8 +31,8 @@ class RepositorySpec extends ObjectBehavior
         $this->find('47cc67093475061e3d95369d')->shouldBeLike($object);
     }
 
-    public function it_transforms_raw_document_into_object()
+    public function its_factory_creates_new_instances()
     {
-        $this->transform([])->shouldBeLike(new \stdClass);
+        $this->transform([])->shouldBeAnInstanceOf('stdClass');
     }
 }
