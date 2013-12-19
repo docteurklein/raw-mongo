@@ -1,5 +1,5 @@
 {
-    "name": "knplabs/raw",
+    "name": "knplabs/raw-mongo",
     "description": "The \"KnpLabs Raw Data Mapper\"",
     "license":     "MIT",
     "homepage": "http://knplabs.com",
